@@ -1,0 +1,52 @@
+.OneSection{
+
+     display: flex;
+        align-items: center;
+        justify-content: space-between;
+    .cardd{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__list{
+             display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        
+        &__item{
+            &__link{
+                text-decoration: none;
+                color: #53B175;
+                font-size: 19px;
+                opacity: 0.8;
+            }
+            .active{
+                color: black;
+                opacity: 1;
+                border-bottom: 2px solid #53B175;
+            }
+        }
+        
+        &__list2{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            &__item{
+                &__links{
+                    color: black;;
+                    &__like{
+                        background-color: white;
+                        padding: 4px 5px;
+                        border-radius: 10pc;
+                    }
+                     &__shop{
+                        background-color: white;
+                        padding: 6px 5px;
+                        border-radius: 10pc;
+                    }
+                }
+            }
+        }
+    }
+}
