@@ -1,0 +1,49 @@
+.Threesection{
+    padding-top: 280px;
+    .bopt{
+            
+             background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+            padding: 1px 0;
+    }
+    .three{
+        padding-top: 35px;
+        padding-bottom: 10px;
+   
+        &__list{
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+             cursor: pointer;
+        }
+         &__item{
+            display: flex;
+            gap: 15px;
+            &__yetkazma{
+                padding: 15px;
+                color: #53B175;
+                background-color: #53b1752a;
+                font-size: 26px;
+                border-radius: 6px;
+            }
+            
+            &__right{
+                &__title{
+                    font-family: 'Poppins';
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 27px;
+                    color: #1D1D1F;
+                }
+                
+                &__text{
+                    font-family: 'Poppins';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #1D1D1F;
+                    opacity: 0.75;
+                }
+            }
+        }
+    }
+}
