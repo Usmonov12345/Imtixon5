@@ -4,6 +4,7 @@ import '../Main/Main.scss'
 import Twosection from './Twosection/Twosection'
 import Threesection from './Threesection/Threesection'
 import Foursection from './Foursection/Foursection'
+import Logosection from './Logosection/Logosection'
 function Main() {
   return (
     <div >
@@ -14,6 +15,7 @@ function Main() {
         </div>
            <Threesection/>
            <Foursection/> 
+           <Logosection/>
       </div>
     </div>
   )

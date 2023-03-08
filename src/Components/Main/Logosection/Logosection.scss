@@ -1,0 +1,18 @@
+.Logosection{
+    padding: 40px;
+    .botr{
+        padding: 1px;
+        width: 80%;
+        margin: 0 auto;background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    }
+    .carda{
+    padding: 20px 0;
+    width: 97%;
+    margin: 0 auto; ;
+        &__list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
