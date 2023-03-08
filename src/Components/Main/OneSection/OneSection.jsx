@@ -9,7 +9,7 @@ function OneSection() {
                 <ul className='cardd__list'>
                 <h1>LOGO</h1>   
                     <li className='cardd__item'>
-                        <NavLink to='/' className="cardd__item__link">
+                           <NavLink to='/' className="cardd__item__link">
                             Bosh sahifa
                         </NavLink>
                     </li>

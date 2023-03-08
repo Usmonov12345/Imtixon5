@@ -3,6 +3,7 @@ import OneSection from './OneSection/OneSection'
 import '../Main/Main.scss'
 import Twosection from './Twosection/Twosection'
 import Threesection from './Threesection/Threesection'
+import Foursection from './Foursection/Foursection'
 function Main() {
   return (
     <div >
@@ -12,6 +13,7 @@ function Main() {
            <Twosection/>
         </div>
            <Threesection/>
+           <Foursection/> 
       </div>
     </div>
   )
