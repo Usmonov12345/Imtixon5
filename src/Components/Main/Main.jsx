@@ -6,6 +6,7 @@ import Threesection from './Threesection/Threesection'
 import Foursection from './Foursection/Foursection'
 import Logosection from './Logosection/Logosection'
 import Loginsection from './Loginsection/Loginsection'
+import Accodionsection from './Accodionsection/Accodionsection'
 function Main() {
   return (
     <div >
@@ -15,6 +16,7 @@ function Main() {
            <Twosection/>
         </div>
            <Threesection/>
+           <Accodionsection/>
            <Foursection/> 
            <Loginsection/>
            <Logosection/>

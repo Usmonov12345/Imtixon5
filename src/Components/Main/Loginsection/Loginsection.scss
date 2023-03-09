@@ -36,7 +36,8 @@
                 color: #000000;
             }
             
-            &__form{
+        &__form{
+           
             width: 60%;
             position: relative;
             &__flag{
@@ -76,7 +77,26 @@
                     border-radius: 6px 6px 0 0;
                 }
             }
-            }
+            
+             
+        }
+        .iconsd{
+            color: #53B175;
+            font-size: 20px;
+            transform: rotate(55deg);
+        }
+       .box__right__form__btn{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding:1px 10px 3px 10px;
+            width: 50%;
+            font-size: 22px;
+            border-radius: 10pc;
+            background: rgba(83, 177, 117, 0.2);
+            border: 1px solid #53B175;
+            color: black;
+        }
             
           
         }

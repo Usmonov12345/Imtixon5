@@ -3,6 +3,7 @@ import '../Loginsection/Loginsection.scss'
 import img from '../../../Image/pip.svg'
 import { useForm } from "react-hook-form";
 import img1 from '../../../Image/flag.svg'
+import sama from '../../../Image/sama.svg'
 function Loginsection() {
  const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => console.log(data);
@@ -28,7 +29,7 @@ function Loginsection() {
                           <img src={img1} alt="" className='box__right__form__flag'/>
             
                           <input type="text" {...register("age", { min: 18, max: 99 })} placeholder="+998-88-777-77-77 "  className='box__right__form__input1' required/>
-                          <input type="submit" />
+                            <button type='submit' className='box__right__form__btn'>yuborish <img src={sama} alt="" /></button>
                     </form>
                         
                         
