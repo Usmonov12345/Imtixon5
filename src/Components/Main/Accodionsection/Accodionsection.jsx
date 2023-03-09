@@ -22,18 +22,6 @@ function Accodionsection() {
                 
                 
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 </div>
             </div>
         </div>

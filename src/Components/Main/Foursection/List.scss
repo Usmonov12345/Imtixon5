@@ -1,0 +1,123 @@
+.List{
+    width: 18%;
+    border: 1px solid #E2E2E2;
+    border-radius: 7px ;
+    .cardf{
+        &__item{
+        position: relative;
+        
+        &__heard{
+            position: absolute;
+            right: 0;
+            top: 10px;
+            transition: 0.2s;
+            color: #1817255c;
+            &:active{
+                color: red;
+            }
+        }
+        
+        &__img{
+            width: 100%;
+            margin-left: -30px;
+        }
+        
+        &__title{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 19px;
+            line-height: 24px;
+            letter-spacing: 1px;
+            color: #181725;
+        }
+        
+        &__text{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 6px;
+            display: flex;
+            align-items: center;
+            color: #7C7C7C;
+        }
+        
+            &__cagirma{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: flex-end;
+                text-decoration-line: line-through;
+                color: #808080;
+            }
+            
+            &__narx{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 36px;
+                color: #53B175;
+
+            }
+            
+            &__cardf{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            &__btn{
+                background: #53B175;
+                border-radius: 17px;
+                position: relative;;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                border: 2px solid #53B175;
+                &:hover{
+                    opacity: 0.8;
+                }
+                &:active{
+                    transform: scale(0.9);
+                }
+            }
+            
+            &__iconP{
+                position: absolute;
+                color: white;
+                font-size: 24px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            
+            
+            &__link{
+                text-align: center;
+                text-decoration: none;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: #BDBDBD;
+                display: flex;
+                align-items: center;
+                justify-content: center;;
+                gap: 10px;
+                transition: 0.3s;
+                
+                
+                &:hover{
+                    transform: translateX(15px);
+                }
+                
+
+            }
+       }
+    }
+}

@@ -1,9 +1,10 @@
 import React from 'react'
-import OnesectionM from '../../Mahsulotlar/OnesectionM/OnesectionM'
+import '../Mahsulotlar/Mahsulotlar.scss'
+import OnesectionM from './OnesectionM/OnesectionM'
 function Mahsulotlar() {
   return (
     <div>
-      <OnesectionM/>
+        <OnesectionM/>
     </div>
   )
 }

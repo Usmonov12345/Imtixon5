@@ -2,6 +2,7 @@ import React from 'react'
 import '../OneSection/OneSection.scss'
 import {NavLink,Link} from 'react-router-dom'
 function OneSection() {
+
   return (
     <div className='OneSection'>
         <div className="container">
