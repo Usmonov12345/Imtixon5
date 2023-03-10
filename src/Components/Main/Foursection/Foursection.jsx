@@ -9,7 +9,6 @@ function Foursection() {
   useEffect(()=>{
     const pol = () =>{
         setState(data)
-        console.log(data)
     }   
     pol()
   },[])

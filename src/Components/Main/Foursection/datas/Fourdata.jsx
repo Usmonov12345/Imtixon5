@@ -44,5 +44,14 @@ export  const data = [
       chegirma:'200,190, uzs',
       narx:150000 ,
     },
+        
+    {
+      id:6,
+      img:`${img}`,
+      title:'Rohat Sirop',
+      text:'Erkaklar kuchi ',
+      chegirma:'200,190, uzs',
+      narx:150000 ,
+    },
 ]
 

@@ -7,7 +7,6 @@ import Foursection from './Foursection/Foursection'
 import Logosection from './Logosection/Logosection'
 import Loginsection from './Loginsection/Loginsection'
 import Accodionsection from './Accodionsection/Accodionsection'
-import List from './Foursection/List'
 import Yousection from './Yousection/Yousection'
 function Main() {
   return (

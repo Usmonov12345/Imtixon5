@@ -1,0 +1,106 @@
+.Like{
+    background-image: url('../../../Image/bar.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 120px 0;
+    position: relative;
+    
+  
+    &__pho{
+        position: absolute  ;
+        width: 50px;
+        height: 50px;
+        background-color: #3E54AC;
+        color: #fff;
+        border-radius: 10pc;
+        right: 40px;
+        position: fixed;
+        top: 530px;
+        transform:  rotate(133deg) ;
+        transition: 0.3s;
+        
+        
+        &:hover{
+            color: #fff;
+            transform:  scale(1.1) rotate(-40deg);
+
+        }
+    }
+     &__phon{
+        position: absolute  ;
+        width: 50px;
+        height: 50px;
+        background: #53B175;
+        opacity: 0.8;
+        color: #fff;
+        border-radius: 10pc;
+        right: 40px;
+        top: 600px;
+        position: fixed;
+        transition: 0.3s;
+        &:hover{
+            color: #fff;
+            transform:  scale(1.1)  ;
+
+        }
+    }
+    &__phone{
+        position: absolute;
+        font-size: 23px;
+        top: 50%;
+        left: 50%;
+        transform:  translate(-50%, -50%) ;
+      
+    }
+      &__com{
+        position: absolute;
+        font-size: 23px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .cardf{
+        &__title{
+                font-family: 'Poppins';
+                font-weight: 600;
+                font-size: 29px;
+                line-height: 36px;
+                color: #282938;
+                margin-left: 30px;
+        }
+        
+       
+        
+     
+        &__list{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        &__item{
+            
+            
+            &__link{
+                color: #505050;
+                text-decoration: none;
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 18px;
+                color: #505050;
+                &:hover{
+                    color: #53B175;
+                }
+            }
+         
+        }
+    }
+}
+
+.cardf__iteM{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}

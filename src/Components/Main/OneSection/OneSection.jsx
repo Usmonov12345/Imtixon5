@@ -22,12 +22,12 @@ function OneSection() {
                 </ul>
                 <ul className="cardd__list2">
                     <li className="cardd__list2__item">
-                        <Link className='cardd__list2__item__links'>
+                        <Link className='cardd__list2__item__links' to="/Mahsulotlar">
                             <i class="fa-solid fa-heart cardd__list2__item__links__like"></i>
                         </Link>
                     </li>
                     <li className="cardd__list2__item">
-                        <Link className='cardd__list2__item__links'>
+                        <Link className='cardd__list2__item__links' to="/Mahsulotlar">
                             <i class="fa fa-cart-shopping cardd__list2__item__links__shop"></i>
                         </Link>
                     </li>

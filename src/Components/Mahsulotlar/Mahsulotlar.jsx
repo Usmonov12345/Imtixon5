@@ -1,10 +1,14 @@
 import React from 'react'
 import '../Mahsulotlar/Mahsulotlar.scss'
-import OnesectionM from './OnesectionM/OnesectionM'
+import Like from './Like/Like'
+import Listdata from './Like/Listdata'
+import Listr from './Like/Listr'
 function Mahsulotlar() {
   return (
     <div>
-        <OnesectionM/>
+                <Listdata/>
+                <Like/>
+                <Listr/>
     </div>
   )
 }

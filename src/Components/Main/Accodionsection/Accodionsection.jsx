@@ -53,12 +53,6 @@ function Accodionsection() {
                         </div>
                       </div>
                     </div>
-                
-                
-                
-                
-                
-                
                 </div>
             </div>
         </div>
